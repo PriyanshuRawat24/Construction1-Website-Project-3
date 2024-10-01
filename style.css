@@ -581,3 +581,166 @@ body {
 .background-about-page-image-box img:hover {
   transform: scale(1.1);
 }
+
+
+/* contact-section */
+
+.container-main-wrapper {
+  margin-top: 50px;
+}
+
+.contact-heading-section {
+  color: rgb(254 187 23);
+}
+
+.contact-heading-box h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: -32px;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+  color: rgba(254, 189, 23, 0.544);
+}
+
+.contact-heading-box p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 35px;
+}
+
+.contact-info {
+  margin-left: 70px;
+}
+
+.contact-page-banner-wrapper {
+  padding: 130px;
+}
+
+.contact-banner-header h2 {
+  padding: 67px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.infomation-wrapper {
+  margin-top: 50px;
+}
+
+.contact-title{
+  font-weight: 600;
+  color: rgb(254 187 23);
+}
+
+.contact-title p{
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+.heading-1-contact h3{
+  color: rgb(254 187 23);
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.logo-contact-box p{
+  font-size: 17px;
+  margin-left: 50px;
+  font-weight: 600;
+  margin-top: -24px;
+}
+
+.logo-contact-box .fa-location-dot{
+  font-size: 35px;
+}
+
+.heading-2-email h3{
+  color: rgb(254 187 23);
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.logo-email-box p{
+  font-size: 17px;
+  margin-left: 50px;
+  font-weight: 600;
+  margin-top: -24px;
+}
+
+.logo-email-box .fa-location-dot{
+  font-size: 35px;
+}
+
+.heading-3-office h3{
+  color: rgb(254 187 23);
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.logo-office-box p{
+  font-size: 17px;
+  margin-left: 50px;
+  font-weight: 600;
+  margin-top: -24px;
+}
+
+.logo-office-box .fa-envelope{
+  font-size: 20px;
+}
+
+.heading-4-social {
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+
+.heading-4-social h3{
+  text-transform: uppercase;
+  color: rgb(254 187 23);
+}
+
+.logo-social-box i{
+  font-size: 20px;
+}
+
+.logo-social-box i:hover{
+  color: rgb(254 187 23);
+}
+
+.heading-4-social fa-location-dot{
+  margin-left: 50px;
+}
+
+.form-box {
+  padding: 20px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  background-color: rgb(245, 245, 245);
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.btn-box {
+  background-color: rgba(254, 189, 23, 0.338);
+  border: 2px solid rgb(254 187 23);
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.btn-box:hover {
+  background-color: rgb(254 187 23);
+}
+
+
