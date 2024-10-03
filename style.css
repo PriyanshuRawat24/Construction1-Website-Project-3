@@ -306,7 +306,8 @@ body {
 .what-we-offer-text-box button {
   margin-top: 10px;
   padding: 5px;
-  background-color: rgb(254 187 23);
+  background-color: rgba(254, 189, 23, 0.625);
+  border: 1px solid rgba(254, 189, 23, 0.586);
   color: #fff;
   border: 3px solid;
   border-radius: 10px;
@@ -314,7 +315,7 @@ body {
 }
 
 .what-we-offer-text-box button:hover {
-  background-color: grey;
+  background-color: rgb(254 187 23);
 }
 
 /* footer-section */
@@ -711,6 +712,7 @@ body {
 }
 
 .logo-social-box i{
+  margin-top: 8px;
   font-size: 20px;
 }
 
@@ -741,6 +743,167 @@ body {
 
 .btn-box:hover {
   background-color: rgb(254 187 23);
+}
+
+/* service */
+
+.service-wrapper {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgba(230, 230, 230, 0.426);
+}
+
+.service-main-box {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border:1px solid #0000001d;
+}
+
+.service-para-box h5{
+  margin-top: 15px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.service-para-box h5:hover{
+  color: rgb(254 187 23);
+}
+
+.service-para-box p{
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+/* General reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ----------- Desktop and larger screens ----------- */
+@media screen and (min-width: 1200px) {
+  .navbar-logo img {
+    width: 20%;
+  }
+
+  .carousel-caption {
+    right: 20%;
+    left: 20%;
+    top: 30%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+
+/* ----------- Laptops (1024px - 1200px) ----------- */
+@media screen and (max-width: 1200px) {
+  .navbar-logo img {
+    width: 30%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 40px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .carousel-caption button {
+    font-size: 18px;
+  }
+}
+
+/* ----------- iPads/Tablets (768px - 1024px) ----------- */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo img {
+    width: 40%;
+  }
+
+  .navbar ul {
+    margin-right: 0;
+  }
+
+  .carousel-caption h2 {
+    font-size: 35px;
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+  }
+
+  .carousel-caption button {
+    font-size: 16px;
+  }
+
+  .about-text-box h2 {
+    font-size: 30px;
+  }
+
+  .about-text-box hr {
+    width: 70px;
+  }
+}
+
+/* ----------- Phones (max-width: 768px) ----------- */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .navbar-logo img {
+    width: 50%;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .navbar ul li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+  .carousel-caption button {
+    font-size: 14px;
+  }
+
+  .about-text-box h2 {
+    font-size: 24px;
+  }
+
+  .about-text-box hr {
+    width: 50px;
+  }
+
+  .contact-page-banner-wrapper {
+    padding: 50px;
+  }
+
+  .contact-banner-header h2 {
+    font-size: 24px;
+  }
 }
 
 
