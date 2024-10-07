@@ -94,7 +94,7 @@ body {
   padding: 0;
 }
 
-.about-text-box h2 {
+.about-text-box h1 {
   text-transform: capitalize;
   color: rgb(254 187 23);
 }
@@ -846,7 +846,7 @@ body {
     font-size: 16px;
   }
 
-  .about-text-box h2 {
+  .about-text-box h1 {
     font-size: 30px;
   }
 
@@ -868,6 +868,7 @@ body {
 
   .navbar ul {
     flex-direction: column;
+    display: flex;
     margin-right: 0;
   }
 
