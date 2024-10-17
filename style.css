@@ -3,46 +3,54 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-}
-
-.nav-bar-wrapper {
-  background-color: black;
+  overflow-x: hidden;
 }
 
 .navbar {
-  background-color: black;
-  color: white;
+	background-color: black!important;
+	-webkit-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+}
+.logo-img {
+	width: 230px;
+}
+.nav-item {
+	padding-left: 2rem;
+}
+.nav-link {
+	color: white!important;
+	line-height: 50px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler {
+	border:2px solid #fff;
+}
+
+.collapse  {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  justify-content: end;
 }
 
-.navbar-logo img {
-  width: 50%;
+/* add your custome hamburger icon */
+.navbar-dark .navbar-toggler:focus {
+	outline: none;
+} 
+
+.customNav  {
+	background-color: #ee3739!important;
+	-webkit-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
+	animation: navSlide 1s ease forwards;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-right: 80px;
-}
-
-.navbar ul li {
-  margin-left: 40px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  text-transform: capitalize;
-}
-
-.navbar ul li a:hover {
-  color: rgb(254 187 23);
+@keyframes navSlide {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
 }
 
 /* banner */
@@ -784,79 +792,24 @@ body {
 }
 
 /* ----------- Desktop and larger screens ----------- */
-@media screen and (min-width: 1200px) {
-  .navbar-logo img {
-    width: 100%;
-  }
-
-  .carousel-caption {
-    right: 20%;
-    left: 20%;
-    top: 30%;
-  }
-
-  .carousel-caption h2 {
-    font-size: 50px;
-  }
-}
-
-/* ----------- Laptops (1024px - 1200px) ----------- */
-@media screen and (max-width: 1200px) {
-  .navbar-logo img {
-    width: 30%;
-  }
-
-  .carousel-caption h2 {
-    font-size: 40px;
-  }
-
-  .carousel-caption p {
-    font-size: 18px;
-  }
-
-  .carousel-caption button {
-    font-size: 18px;
-  }
-}
+@media screen and (min-width: 1200px) {}
 
 /* ----------- iPads/Tablets (768px - 1024px) ----------- */
-@media screen and (max-width: 1024px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-logo img {
-    width: 40%;
-  }
-
-  .navbar ul {
-    margin-right: 0;
-  }
-
-  .carousel-caption h2 {
-    font-size: 35px;
-  }
-
-  .carousel-caption p {
-    font-size: 16px;
-  }
-
-  .carousel-caption button {
-    font-size: 16px;
-  }
-
-  .about-text-box h1 {
-    font-size: 30px;
-  }
-
-  .about-text-box hr {
-    width: 70px;
-  }
-}
+@media screen and (max-width: 1024px) {}
 
 /* ----------- Phones (max-width: 768px) ----------- */
 @media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+
+  .navbar-toggler-icon i{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 4px;
+  }
   .navbar {
     flex-direction: column;
     padding: 10px 10px;
@@ -908,6 +861,10 @@ body {
   .quick-links-box {
     text-align: justify;
     margin-top: 25px;
+  }
+
+  #carouselExampleControlsNoTouching {
+    margin-top: 65px;
   }
 
   .contact-box {
