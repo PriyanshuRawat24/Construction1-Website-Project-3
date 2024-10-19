@@ -12,15 +12,22 @@ body {
 	box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.2);
 }
 .logo-img {
-	width: 230px;
+	width: 200px;
 }
 .nav-item {
 	padding-left: 2rem;
 }
+
+.navbar-brand img {
+  width: 40%;
+  height: 40%;
+}
+
 .nav-link {
 	color: white!important;
-	line-height: 50px;
   text-transform: uppercase;
+  font-size: 30px;
+  margin-right: 20px;
 }
 
 .navbar-dark .navbar-toggler {
@@ -28,6 +35,11 @@ body {
 }
 
 .collapse  {
+  display: flex;
+  justify-content: end;
+}
+
+.collapse  .nav-link{
   display: flex;
   justify-content: end;
 }
@@ -803,31 +815,6 @@ body {
   body {
     overflow-x: hidden;
     overflow: hidden;
-  }
-
-  .navbar-toggler-icon i{
-    font-size: 35px;
-    margin-top: 0px;
-    margin-left: 4px;
-  }
-  .navbar {
-    flex-direction: column;
-    padding: 10px 10px;
-  }
-
-  .navbar-logo img {
-    width: 50%;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    display: flex;
-    margin-right: 0;
-  }
-
-  .navbar ul li {
-    margin-left: 0;
-    margin-top: 10px;
   }
 
   .carousel-caption h2 {
